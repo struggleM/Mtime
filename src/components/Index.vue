@@ -310,9 +310,8 @@
         height: 100%;
         background: #f6f6f6;
 
-        .my-scroller {
-            padding-bottom: 80px;
-        }
+        
+        
         .vux-slider > .vux-swiper > .vux-swiper-item > a > .vux-swiper-desc {
             padding-top: 0;
             height: 1.6em;
@@ -334,6 +333,9 @@
         .vux-marquee {
             margin: 5px;
         }
+    }
+    .my-scroller {
+        padding-bottom: 80px;
     }
 
     #index .logo {

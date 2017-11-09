@@ -132,7 +132,7 @@ export default new Vuex.Store({
                     })
                     //跑马灯
                     let topList = data.list.filter( item => {
-                        return item.addata == null;
+                        return item.addata === null && item.picInfo[0]
                     } ).map( item => {
                         return {
                             title: item.title,

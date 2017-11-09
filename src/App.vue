@@ -89,6 +89,9 @@ export default {
         left: 0;
         z-index: 99;
     }
+    .vux-swiper{
+    	height: 270px;
+    }
     .loading {
         position: fixed;
         left: 0;
